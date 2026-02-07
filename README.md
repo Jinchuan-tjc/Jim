@@ -1,6 +1,6 @@
 # Rocket Launch Mini-Game (Windows Desktop)
 
-This is a small Windows desktop mini-game built with **Pygame**. Hold **Space** to ignite the rocket and reach a higher altitude, then release to coast. Try to beat your best altitude!
+This is a small Windows desktop mini-game built with **Pygame**. Use thrust and steering to reach a higher altitude, collect fuel pickups, and land gently on the pad to score.
 
 ## Requirements
 
@@ -21,6 +21,14 @@ python main.py
 
 ## Controls
 
-- **Space**: Ignite / thrust
+- **Up / W**: Ignite / thrust
+- **Left / A**: Rotate left
+- **Right / D**: Rotate right
 - **R**: Reset and launch again
 - **Close window**: Quit
+
+## Gameplay Tips
+
+- Fuel is limited, but pickups restore fuel.
+- Watch the wind indicator and adjust your angle.
+- Land softly (slow speed) to avoid crashing.
